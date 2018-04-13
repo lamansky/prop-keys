@@ -17,7 +17,7 @@
   "main": "index.js",
   "files": [],
   "engines": {
-    "node": ">=7.0.0"
+    "node": ">=6.0.0"
   },
   "dependencies": {
     "own-all": "^1.0.0",

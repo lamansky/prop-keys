@@ -4,7 +4,7 @@ Iterates the keys of all properties (owned and inherited) of an object.
 
 ## Installation
 
-Requires [Node.js](https://nodejs.org/) 7.0.0 or above.
+Requires [Node.js](https://nodejs.org/) 6.0.0 or above.
 
 ```bash
 npm i prop-keys
