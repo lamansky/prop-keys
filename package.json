@@ -1,14 +1,14 @@
 {
   "name": "prop-keys",
   "version": "1.0.0",
-  "description": "Iterates the keys of all properties (owned and inherited) of an object.",
+  "description": "Returns an array of the keys of all properties (owned and inherited) of an object.",
   "keywords": [
     "object",
     "own",
     "inherited",
     "properties",
     "keys",
-    "iterator"
+    "array"
   ],
   "author": "John Lamansky",
   "license": "MIT",
@@ -24,9 +24,8 @@
     "sbo": "^1.1.0"
   },
   "devDependencies": {
-    "equals": "^1.0.5",
     "eslint-config-lamansky": "^1.0.0",
-    "is-iterator": "^1.0.1",
+    "is-array-with": "^1.0.0",
     "mocha": "^5.2.0"
   },
   "scripts": {

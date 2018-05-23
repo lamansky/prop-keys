@@ -1,6 +1,6 @@
 'use strict'
 
 const ownAll = require('own-all')
-const supportBindOperator = require('sbo')
+const sbo = require('sbo')
 
-module.exports = supportBindOperator((obj, {own, enumOnly} = {}) => (enumOnly ? Object.keys : Reflect.ownKeys)(own ? obj : ownAll(obj))[Symbol.iterator]())
+module.exports = sbo((obj, {own, enumOnly} = {}) => (enumOnly ? Object.keys : Reflect.ownKeys)(own ? obj : ownAll(obj)))
